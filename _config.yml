@@ -13,14 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: Kapela Cmaj7
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  Jsme mladá studentská kapela složená z party kamarádů, které hudba prostě baví. 
+  Repertoár máme od každého žánru trochu, od big beatu, po rock, pop, funk a 
+  uslyšíte české i zahraniční hity, které osloví nejširší publikum. 
+  Zahrajeme vám rádi při každé příležitosti. Na plese, svatbě, oslavě a jakékoli jiné události. 
+  A proč si pro Vaši akci vybrat zrovna nás?
+  Myslíme si, že dokážeme zajistit kvalitní živou produkci a vneseme do vašeho večera pohodovou taneční atmosféru.
+facebook_username: Kapela Cmaj7
+instagram_username: _cmaj7__
 minimal_mistakes_skin: default
 search: true
 
@@ -31,7 +34,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: CZ # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -58,34 +61,31 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Kapela Cmaj7"
+  avatar : "/assets/images/logo_cmaj7.png"
+  bio    : "Mladá kapela s hudbou pro každou příležitost."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
+      url: "https://kapela-cmaj7.cz/"
+    - label: "Facebook"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://www.facebook.com/kapelacmaj7"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/_cmaj7__/"
 
 footer:
   links:
-    - label: "Twitter"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://kapela-cmaj7.cz/"
+    - label: "Facebook"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://www.facebook.com/kapelacmaj7"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/_cmaj7__/"
 
 defaults:
   # _posts
